@@ -19,7 +19,17 @@ public:
 private slots:
     void on_keySequenceEdit_keySequenceChanged(const QKeySequence &keySequence);
 
-    void on_menu_clicked();
+    void on_config_clicked();
+
+    void on_accept_clicked();
+
+    void on_top_clicked();
+
+    void on_left_clicked();
+
+    void on_right_clicked();
+
+    void on_bottom_clicked();
 
 private:
     Ui::MainWindow *ui;
