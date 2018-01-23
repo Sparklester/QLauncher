@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2017-12-12T15:44:23
+# Project created by QtCreator 2018-01-09T11:10:54
 #
 #-------------------------------------------------
 
@@ -8,7 +8,7 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
-TARGET = QLauncher
+TARGET = QLaumcher
 TEMPLATE = app
 
 # The following define makes your compiler emit warnings if you use
@@ -25,10 +25,16 @@ DEFINES += QT_DEPRECATED_WARNINGS
 
 SOURCES += \
         main.cpp \
-        mainwindow.cpp
+        mainwindow.cpp \
+    config.cpp
 
 HEADERS += \
-        mainwindow.h
+        mainwindow.h \
+    config.h
 
 FORMS += \
-        mainwindow.ui
+        mainwindow.ui \
+    config.ui
+
+RESOURCES += \
+    resources.qrc
